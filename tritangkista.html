@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tri Tangkista - SovietTube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER / NAVBAR -->
+<header>
+  <a href="index.html">
+    <img src="https://www.shutterstock.com/image-vector/hammer-sickle-high-quality-vector-600nw-1899842053.jpg" alt="SovietTube Logo">
+    <span>SovietTube</span>
+  </a>
+</header>
+
+<!-- POPUP REWARD -->
+<div id="rewardPopup">
+  <div id="rewardBox">
+    <h2>🎉 Soviet Reward</h2>
+    <p>Klaim bonus dulu sebelum nonton.</p>
+    <button id="claimBtn">Klaim Reward</button>
+  </div>
+</div>
+
+<!-- VIDEO -->
+<iframe id="ytPlayer"
+  src="https://www.youtube.com/embed/8_ULQLgKfFM?enablejsapi=1&autoplay=0&mute=1"
+  allow="autoplay"
+  allowfullscreen>
+</iframe>
+
+<!-- VIDEO INFO & BUTTONS -->
+<div class="video-info">
+  <div class="views-date">3.212.876 views • Apr 5, 1944</div>
+  <div class="btn-area">
+    <a class="button" href="https://www.instagram.com/jant344p_?igsh=MWt3Zzd1MDB1aGVuOA==" target="_blank">👍 Like</a>
+    <div id="dislikeBtn" class="button">👎 Dislike</div>
+    <a class="button sub-btn" href="https://youtube.com/@rjfjanti_channel?si=Rqrdpb4oBZGak3rS" target="_blank">Subscribe</a>
+  </div>
+
+  <div class="desc">
+    Tri Tangkista ⚔️<br>
+    Rasakan semangat para penembak jitu Soviet yang penuh keberanian dan patriotisme.  
+    Musik ini membangkitkan energi tempur dan kebanggaan nasional 🎶
+  </div>
+</div>
+
+<!-- COMMENT SECTION -->
+<div class="comment-section">
+  <h3>Komentar</h3>
+  <textarea id="commentInput" placeholder="Tulis komentar..."></textarea>
+  <button id="sendComment">Kirim</button>
+  <p id="commentStatus"></p>
+</div>
+
+<!-- POPUP KOMENTAR -->
+<div id="commentPopup" style="display: none;">
+  <div class="popupBox">
+    <p id="popupMessage"></p>
+    <button id="popupOk">OK</button>
+  </div>
+</div>
+
+<!-- LINK KE JS -->
+<script src="script.js"></script>
+</body>
+</html>

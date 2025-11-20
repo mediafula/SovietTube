@@ -1,0 +1,237 @@
+/* BODY & DEFAULT BACKGROUND */
+body {
+  margin: 0;
+  background: #000;    /* default black */
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER / NAVBAR MERAH */
+header {
+  display: flex;
+  align-items: center;
+  width: 93%;
+  padding: 8px 12px;
+  background: #cc0000;  /* merah tetap */
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  gap: 6px;
+  width: 100%;
+}
+
+header img {
+  height: 28px;
+  max-width: 40px;
+  background-color: #000;  /* kotak hitam default */
+  display: block;
+  border-radius: 4px;
+}
+
+/* VIDEO & INFO */
+iframe {
+  width: 100%;
+  height: 220px;
+  border: none;
+  margin-top: 10px;
+  background: #000;  /* hitam */
+}
+
+.video-info {
+  padding: 10px;
+  background: #111;   /* gelap */
+}
+
+.views-date {
+  font-size: 13px;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #ddd;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+/* BUTTONS */
+.button {
+  background: #cc0000;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background: #e60000;
+  transform: scale(1.05);
+}
+
+.btn-area {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.sub-btn {
+  background: #ff0000;
+}
+
+/* POPUP REWARD */
+#rewardPopup {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+#rewardBox {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.4);
+}
+
+#rewardBox h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  color: #ff4444;
+}
+
+#rewardBox p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+#claimBtn {
+  margin-top: 15px;
+  background: #cc0000;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* COMMENT SECTION */
+.comment-section {
+  padding: 10px;
+  margin-top: 20px;
+  background: #111;       
+  border-radius: 8px;
+}
+
+.comment-section h3 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.comment-section textarea {
+  width: 100%;
+  height: 80px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 8px;
+  resize: none;
+  font-size: 14px;
+}
+
+.comment-section button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #cc0000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.comment-section button:hover {
+  background: #e00000;
+}
+
+.comment-section #commentStatus {
+  color: #aaa;
+  font-size: 13px;
+  margin-top: 8px;
+} 
+
+/* POPUP KOMENTAR (HIDDEN DEFAULT) */
+#commentPopup {
+  display: none;             /* hidden default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;              /* full viewport */
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  z-index: 9999;
+
+  display: flex;             /* flex biar center */
+  align-items: center;       /* vertical center */
+  justify-content: center;   /* horizontal center */
+}
+
+#commentPopup .popupBox {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(255,0,0,0.4);
+}
+
+#commentPopup button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  background: #cc0000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#commentPopup button:hover {
+  background: #e00000;
+}
