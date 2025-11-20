@@ -10,12 +10,12 @@ body {
 header {
   display: flex;
   align-items: center;
-  width: 100%;               /* full width sesuai viewport */
-  padding: 0 10px;           /* kiri-kanan tipis, mirip margin iframe */
-  background: #cc0000;       /* merah tetap */
+  width: 100%;
+  padding: 12px 10px;       /* tambah padding atas-bawah */
+  background: #cc0000;
   font-size: 18px;
   font-weight: bold;
-  box-sizing: border-box;    /* padding dihitung dalam width */
+  box-sizing: border-box;
   overflow: hidden;
 }
 
