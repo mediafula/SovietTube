@@ -8,11 +8,19 @@ body {
 
 /* HEADER / NAVBAR MERAH */
 header {
-  width: 100%;
-  padding: 0; /* supaya nempel ke kiri-kanan sama seperti iframe */
-  box-sizing: border-box;
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;               /* full width sesuai viewport */
+  padding: 0 10px;           /* kiri-kanan tipis, mirip margin iframe */
+  background: #cc0000;       /* merah tetap */
+  font-size: 18px;
+  font-weight: bold;
+  box-sizing: border-box;    /* padding dihitung dalam width */
+  overflow: hidden;
 }
 
+  
 header a {
   display: flex;
   align-items: center;
