@@ -10,7 +10,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 93%;
   padding: 8px 12px;
   background: #cc0000;  /* merah tetap */
   font-size: 18px;
