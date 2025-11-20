@@ -237,3 +237,9 @@ iframe {
 #commentPopup button:hover {
   background: #e00000;
 }
+.main-content {
+  padding: 10px; /* hanya untuk jarak sekitar card */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
