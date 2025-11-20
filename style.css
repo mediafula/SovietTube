@@ -8,14 +8,9 @@ body {
 
 /* HEADER / NAVBAR MERAH */
 header {
-  display: flex;
-  align-items: center;
-  width: 93%;
-  padding: 8px 12px;
-  background: #cc0000;
-  font-size: 18px;
-  font-weight: bold;
-  overflow: hidden;
+  width: 100%;
+  padding: 0; /* supaya nempel ke kiri-kanan sama seperti iframe */
+  box-sizing: border-box;
 }
 
 header a {
