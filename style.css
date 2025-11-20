@@ -243,3 +243,54 @@ iframe {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 12px;
 }
+
+/* VIDEO CARD */
+.video-card {
+  background: #111;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.video-card:hover {
+  transform: scale(1.03);
+}
+
+.video-card img {
+  width: 100%;
+  display: block;
+}
+
+.video-card .info {
+  padding: 8px;
+}
+
+.video-card .info h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+.video-card .info p {
+  font-size: 12px;
+  color: #aaa;
+  margin: 4px 0 0 0;
+}
+
+.video-card .play-btn {
+  background: #cc0000;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 6px;
+  margin-top: 6px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.video-card .play-btn:hover {
+  background: #e60000;
+}
